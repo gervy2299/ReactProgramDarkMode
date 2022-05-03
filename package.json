@@ -2,13 +2,16 @@
   "name": "social-media-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gervy2299.github.io/ReactProgramDarkMode/",
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
