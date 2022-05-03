@@ -1,0 +1,13 @@
+/* GRID */
+.grid{
+    display: grid;
+    grid-row-gap: 25px;
+  }
+  
+  /* TOP CARD */
+  .top-cards{
+    margin-top: -50px;
+    margin-bottom: 3em;
+  }
+  
+  
